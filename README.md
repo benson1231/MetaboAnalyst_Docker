@@ -18,10 +18,10 @@ The official Docker image for MetaboAnalyst is now available from Docker Hub! js
 
 ```bash
 ### Step 1: Pull image from Docker Hub
-docker pull jsychong/metaboanalyst
+docker pull jsychong/metaboanalyst:august2020
 
 ### Step 2: Run the docker image, the -ti option will open an interactive Ubuntu terminal into the created container and presents a command prompt
-$ docker run -ti --rm --name metaboanalyst_docker -p 8080:8080 jsychong/metaboanalyst
+$ docker run -ti --rm --name metaboanalyst_docker -p 8080:8080 jsychong/metaboanalyst:august2020
 
 ## The command prompt will look something like below; you are now in the shell
 root@760b678fd4bf:/# 
